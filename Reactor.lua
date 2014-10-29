@@ -95,7 +95,7 @@ printXY(1, 25, "Offline")
 
 end
 
-
+os.sleep(10)
 
   local event, address, arg1, arg2, arg3 = event.pull(1)
   if type(address) == "string" and component.isPrimary(address) then
